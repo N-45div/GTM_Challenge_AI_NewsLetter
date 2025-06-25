@@ -38,12 +38,9 @@ This project leverages **n8n** for powerful workflow automation, enabling seamle
 
 n8n provides a visual workflow editor, allowing you to connect various services (including Mailchimp, databases, and other APIs) without writing extensive code. This ensures that the backend processes for your newsletter run smoothly and efficiently.
 
-To integrate n8n, you would typically:
-1.  Set up an n8n instance (self-hosted or cloud).
-2.  Create workflows that interact with the Mailchimp API (using your `MAILCHIMP_API_KEY` and `MAILCHIMP_AUDIENCE_ID`) and potentially other services.
-3.  Configure triggers (e.g., webhooks, schedules) to initiate these workflows.
+![image](https://github.com/user-attachments/assets/93d8f396-cf8d-4eee-b79b-34d80afb3638)
 
-## Usage
+Subscriber Screenshot :
 
-*   **Newsletter Subscription**: Visit the homepage (`/`) to subscribe to the newsletter.
-*   **Admin Dashboard**: Access the admin dashboard at `/admin`. You will need to enter the `ADMIN_DASHBOARD_PASSWORD` configured in your environment variables to log in.
+![image](https://github.com/user-attachments/assets/46db31d2-f64d-40c8-b7d0-db7dfc525bc9)
+
