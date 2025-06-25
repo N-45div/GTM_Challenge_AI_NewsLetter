@@ -23,15 +23,6 @@ export default function HomePage() {
 
       <NewsletterForm />
 
-      {/* Adjusted margin for the admin dashboard button */}
-      <div className="mt-6 mb-8">
-        {" "}
-        {/* Reduced top margin, added bottom margin */}
-        <Link href="/admin" passHref>
-          <Button variant="outline">Go to Admin Dashboard</Button>
-        </Link>
-      </div>
-
       <Suspense
         fallback={
           <Card className="w-full max-w-md mx-auto mt-8">
