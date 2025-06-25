@@ -40,6 +40,45 @@ n8n provides a visual workflow editor, allowing you to connect various services 
 
 ![image](https://github.com/user-attachments/assets/93d8f396-cf8d-4eee-b79b-34d80afb3638)
 
+## 🚀 Setup and Installation
+
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/N-45div/GTM_Challenge_AI_NewsLetter.git
+cd GTM_Challenge_AI_NewsLetter
+```
+
+
+### 2️⃣ Install Dependencies
+
+Use your preferred package manager:
+
+```bash
+npm install
+```
+
+
+### 3️⃣ Configure Environment Variables
+
+Create a `.env` file in the root directory of the project, and add the following:
+
+```env
+MAILCHIMP_API_KEY=your_mailchimp_api_key-usX        
+MAILCHIMP_AUDIENCE_ID=your_mailchimp_audience_id    
+ADMIN_DASHBOARD_PASSWORD=your_secure_admin_password
+NEXT_PUBLIC_VERCEL_URL=/        
+```
+
+
+
+### 4️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
 Subscriber Screenshot :
 
 ![image](https://github.com/user-attachments/assets/46db31d2-f64d-40c8-b7d0-db7dfc525bc9)
